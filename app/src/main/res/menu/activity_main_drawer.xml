@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--TODO : changer icônes -->
+
+    <group android:checkableBehavior="single">
+
+           <item android:title="Vous voulez accéder...">
+        <menu>
+            <item
+                android:id="@+id/stagiaires_menu"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="...aux stagiaires" />
+            <item
+                android:id="@+id/groupes_menu"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="...aux groupes" />
+            <item
+                android:id="@+id/punitions_menu"
+                android:icon="@drawable/ic_menu_share"
+                android:title="...aux punitions" />
+            <item
+                android:id="@+id/punissements_menu"
+                android:icon="@drawable/ic_menu_send"
+                android:title="...aux punissements" />
+        </menu>
+    </item>
+    <menu />
+    <item android:title="Item" />
+
+
+    </group>
+
+</menu>

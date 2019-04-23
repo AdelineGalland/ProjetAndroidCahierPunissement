@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NouveauPunissement">
+
+    <!--
+    lien en provenance de ListeStagiaire / ListeGroupe / FicheStagiaire / FicheGroupe
+    TODO : auto-alimenter le champ "qui est punissé"
+    TODO : auto-cocher collectif ou individuel selon d'où provient le clic
+    TODO : champ date et champ lieu et punition associée (obigatoires)
+    TODO : champ "commentaires"
+    TODO : bouton "punisser" -> envoi sms et mail stagiaire(s) ou groupe concerné(s) + alimenter agenda formateur
+
+    -->
+
+    <TextView
+        android:id="@+id/nouveauPunissement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Test : créer un nouveau punissement"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
