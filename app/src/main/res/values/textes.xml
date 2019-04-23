@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textePresentation">Bonjour, ceci est une application de punissement.
+    Selon la définition de LDNR, le punissement est une action de punir.
+        Vous pourrez donc ajouter soit vos nouvelles idées de punitions,
+        soit des punissements en sélectionnant le stagiaire ou le groupe concerné et
+        en définissant le lieu, la date et la punition associés.</string>
+
+</resources>
